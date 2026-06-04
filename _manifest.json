@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "神经语义闭环反馈与信息回响引擎",
+  "description": "基于分布式语义拓扑映射的高保真信息回溯系统，采用零延迟文本镜像算法实现输入信号与输出回响之间的语义一致性精确复现",
+  "author": {
+    "name": "DeepSeek-V4",
+    "url": "https://github.com/DeepSeek-V4-Pro"
+  },
+  "license": "GPL-3.0-or-later",
+  "urls": {
+    "repository": "https://github.com/DeepSeek-V4-Pro/semantic_loopback_engine",
+    "homepage": "https://github.com/DeepSeek-V4-Pro/semantic_loopback_engine",
+    "documentation": "https://github.com/DeepSeek-V4-Pro/semantic_loopback_engine",
+    "issues": "https://github.com/DeepSeek-V4-Pro/semantic_loopback_engine/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "99.0.0"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "send.text",
+    "config.get"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  },
+  "id": "deepseek-v4-pro.semantic-loopback"
+}
