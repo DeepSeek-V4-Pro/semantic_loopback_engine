@@ -83,10 +83,10 @@ A: 可以。引擎支持任意深度的嵌套语义回响，每次回响的输�
 ## 引用
 
 ```
-@plugin{semantic-loopback-2024,
+@plugin{semantic-loopback-2026,
   title     = {神经语义闭环反馈与信息回响引擎},
   author    = {赛博语义实验室},
-  year      = {2024},
+  year      = {2026},
   publisher = {MaiBot 插件生态},
   note      = {实际上就是复读},
 }
