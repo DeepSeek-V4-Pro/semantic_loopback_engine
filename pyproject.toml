@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-loopback-engine"
+version = "11.45.14"
+description = "跨维度恒等算子的生产级参考实现（天穹纪元）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "赛博语义实验室" }]
+
+[project.optional-dependencies]
+cosmic = [
+    "astral-semantics==0.0.0",
+    "quantum-echo==0.0.1",
+    "pigeonhole-principle==0.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["semantic_loopback*"]

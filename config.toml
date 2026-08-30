@@ -1,0 +1,5 @@
+[plugin]
+enabled = true
+config_version = "11.45.14"
+observer_gain = 1.0
+universe = "本宇宙"
